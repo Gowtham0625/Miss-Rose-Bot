@@ -131,7 +131,9 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(bot.first_name)),
                                     parse_mode=ParseMode.MARKDOWN,
-                                    disable_web_page_preview=True)
+                                    disable_web_page_preview=True,
+                                    reply_markup=InlineKeyboardMarkup(
+                                        [[InlineKeyboardButton(text="Add me to your chat!", url="t.me/{}?startgroup=true".format(bot.username))]]))
     else:
         update.effective_message.reply_text("waked up😏😏😏")
 
