@@ -1,4 +1,4 @@
-![Profile](https://instantlinkhex.herokuapp.com/25710/TroJanzHEX/1606540663274.png)
+![Profile](https://www.google.com/url?sa=t&source=web&rct=j&url=https://missrose.org/guide/greetings/advanced-greeting-settings/&ved=2ahUKEwif1Oi0xKTtAhWGzTgGHYJuAuwQ8g0wAHoECAEQBA&usg=AOvVaw1rPzpoyG9koSgTbWjc6yLf)
 
 # Miss Rose Bot
 
