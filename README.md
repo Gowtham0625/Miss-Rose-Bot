@@ -1,4 +1,4 @@
-![Profile](https://www.google.com/url?sa=t&source=web&rct=j&url=https://missrose.org/guide/greetings/advanced-greeting-settings/&ved=2ahUKEwif1Oi0xKTtAhWGzTgGHYJuAuwQ8g0wAHoECAEQBA&usg=AOvVaw1rPzpoyG9koSgTbWjc6yLf)
+![Profile](https://images.app.goo.gl/zJEVQHMdkJ8Njcya6)
 
 # Miss Rose Bot
 
