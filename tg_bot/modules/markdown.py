@@ -12,9 +12,11 @@ Now, if you wanted to have buttons on your message, you could use this special s
 `[button](buttonurl://example.com)`
 This will create a button named "button" which redirects the user to example.com upon clicking.
 If you would like to add two buttons on the same row, add :same at the end of your link; it'll set it on the same line as the other one. For example:
-```[button](buttonurl://example.com)
+```
+[button](buttonurl://example.com)
 [button 2](buttonurl://example.com:same)
-[button 3](buttonurl://example.com)```
+[button 3](buttonurl://example.com)
+```
 will create two buttons on the same line (buttons 1 and 2), and a last one (button 3) on a second line.
 If you want to link a note in the button, simply use the notename as the url, like this:
 `[note button](buttonurl://#note)`
@@ -33,7 +35,7 @@ You can also use certain tags to fill your message with user or chat info; the o
 `{preview}`: Enables link previews for this message. Can be useful when using links to Instant View pages.
 
 An example of how to use fillings would be to set your welcome, via:
-```/setwelcome Hey there {first}! Welcome to {chatname}```.
+`/setwelcome Hey there {first}! Welcome to {chatname}`.
 
 Try these out on notes, filters, welcome messages or even rules!
 """
