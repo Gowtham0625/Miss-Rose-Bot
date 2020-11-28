@@ -184,7 +184,7 @@ __help__ = """
  - /unmute <userhandle>: unmutes a user. Can also be used as a reply, muting the replied to user.
 """
 
-__mod_name__ = "Mute"
+__mod_name__ = "Mutings"
 
 MUTE_HANDLER = CommandHandler("mute", mute, pass_args=True, filters=Filters.group)
 UNMUTE_HANDLER = CommandHandler("unmute", unmute, pass_args=True, filters=Filters.group)
