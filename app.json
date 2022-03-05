@@ -10,7 +10,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/FayasKKD/Miss-Rose-Bot",
+  "repository": "https://github.com/Gowtham0625/Miss-Rose-Bot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
