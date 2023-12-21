@@ -17,15 +17,15 @@
       "value": "ANYTHING"
     },
     "TOKEN": {
-      "description": "Your bot token, as a string.",
+      "description": "6741595016:AAGVzwN3FlyGVEav9_4if6fiDTKyDrTKyWI",
       "value": ""
     },
     "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
+      "description": "6227833614",
       "value": ""
     },
     "OWNER_USERNAME": {
-      "description": "Your username",
+      "description": "polatalemdar330",
       "value": ""
     },
     "WEBHOOK": {
@@ -33,7 +33,7 @@
       "value": "ANYTHING"
     },
     "URL": {
-      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "description": "The Heroku App URL similar to https://rose-bot-module.herokuapp.com/",
       "value": ""
     },
     "MESSAGE_DUMP": {
@@ -53,7 +53,7 @@
       "value": ""
     },
     "DONATION_LINK": {
-      "description": "Optional: link where you would like to receive donations.",
+      "description": "https://t.me/polatalemdar330",
       "value": ""
     },
     "PORT": {
