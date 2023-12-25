@@ -1,60 +1,60 @@
-
 {
-  "name": "Miss Rose",
-  "logo": "https://telegra.ph/file/48522f7be29b993a19e60.jpg",
+  "name": "Kochubot",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
+  "logo": "https://telegra.ph/file/1925c7a2f601539ccde7a.png",
   "keywords": [
     "telegram",
     "best",
     "group",
     "manager",
-    "3"
+    "3",
+    "plugin",
+    "modular",
+    "productivity"
   ],
-  "repository": "hhttps://github.com/FayasKKD/Miss-Rose-Bot",
+  "repository": "https://github.com/jithumon/tgbot",
   "env": {
     "ENV": {
-      "description": "Setting this to ANYTHING will enable env variables",
+      "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
       "value": "ANYTHING"
     },
     "TOKEN": {
-      "description": "6741595016:AAGVzwN3FlyGVEav9_4if6fiDTKyDrTKyWI",
-      "value": ""
+      "description": "Your bot token, as a string."
     },
     "OWNER_ID": {
-      "description": "6227833614",
-      "value": ""
+      "description": "An integer of consisting of your owner ID",
+      "value": "20516707"
     },
     "OWNER_USERNAME": {
-      "description": "polatalemdar330",
-      "value": ""
+      "description": "Your username",
+      "value": "SonOfLars"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
       "value": "ANYTHING"
     },
     "URL": {
-      "description": "The Heroku App URL similar to https://rose-bot-module.herokuapp.com/",
-      "value": ""
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/"
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-      "value": "-1007777777777"
+      "required": false
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": ""
+      "value": "254318997 18673980 83489514"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": ""
+      "value": "254318997 18673980 83489514"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": ""
+      "value": "254318997 18673980 83489514"
     },
     "DONATION_LINK": {
-      "description": "https://t.me/polatalemdar330",
-      "value": ""
+      "description": "Optional: link where you would like to receive donations.",
+      "value": "https://www.paypal.me/PaulSonOfLars"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
@@ -74,15 +74,29 @@
     },
     "BAN_STICKER": {
       "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
-      "value": "CAACAgQAAxkBAAEHAedfwdK1GHtSZe1Q0F0q6vWRsxL91gAC-QgAAoThEVJCGmPkkeA1_R4E"
+      "value": "CAADBQADfQADv7rGI0wxx1ORU7UzAg",
+      "required": false
+    },
+    "BMERNU_SCUT_SRELFTI": {
+      "description": "please set this value as 0",
+      "value": "1",
+      "required": false
     }
   },
   "addons": [
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "10"
+        "version": "12"
       }
     }
-  ]
+  ],
+  "stack": "heroku-20",
+  "buildpacks": [],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
 }
