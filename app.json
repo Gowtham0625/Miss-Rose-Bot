@@ -18,8 +18,8 @@
       "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
       "value": "ANYTHING"
     },
-    "TOKEN": {
-      "description": "6020549442:AAFR6HDSeZkIt6OtwsMvV8j0pYmz4w2bhOQ"
+    "6020549442:AAFR6HDSeZkIt6OtwsMvV8j0pYmz4w2bhOQ": {
+      "description": ""
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
@@ -34,7 +34,7 @@
       "value": "ANYTHING"
     },
     "URL": {
-      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/"
+      "description": "The Heroku App URL similar to https://rose-bot.herokuapp.com/"
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
