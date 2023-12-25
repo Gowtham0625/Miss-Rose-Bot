@@ -18,9 +18,9 @@
       "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
       "value": "ANYTHING"
     },
-    "6020549442:AAFR6HDSeZkIt6OtwsMvV8j0pYmz4w2bhOQ": {
-      "description": ""
-    },
+    "TOKEN": {
+      "description": "Your bot token, as a string."
+    }, "value": "6020549442:AAFR6HDSeZkIt6OtwsMvV8j0pYmz4w2bhOQ"
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
       "value": "6227833614"
@@ -54,7 +54,7 @@
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "t.me/polatalemdar330"
+      "value": "https://t.me/polatalemdar330"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
